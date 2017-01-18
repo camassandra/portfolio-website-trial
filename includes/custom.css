@@ -1,0 +1,98 @@
+
+body {
+  padding: 0;
+  margin: 0;
+  background: -moz-linear-gradient(45deg, #f7f7f7 0%, #EAE0D5 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(45deg, #f7f7f7 0%, #EAE0D5 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(45deg, #f7f7f7 0%, #EAE0D5 100%);
+}
+
+/** Header styles **/
+
+.header {
+  background-image: url("../images/food.JPG");
+  height: 400px;
+  background-position: center center;
+  background-size: contain;
+}
+
+
+h1 {
+  color: #FFFFFF;
+  font-family: 'Didact Gothic', sans-serif;
+  font-size: 100px;
+  line-height: 86px;
+  margin-left: 25px;
+  position: relative;
+  text-align: center;
+  top: 18%;
+}
+
+/** List style **/
+
+h2 {
+  color: rgba(60,179,113, 0.95);
+  background-color: #FFFFFF;
+  font-family: 'Didact Gothic', sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+ul {
+  margin: 0 auto;
+  padding: 0;
+  width: 50%;
+}
+
+li {
+  border-bottom: 1px solid #E4BB97;
+  list-style: none;
+  margin: 50px 0px;
+  padding-bottom: 10px;
+  text-align: justify;
+}
+
+p {
+  color: rgba(225, 84, 9, 0.9);
+  line-height: 32px;
+  font-family: 'Didact Gothic', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: justify;
+}
+
+
+img {
+  display: inline-block;
+  position: relative;
+  float: center
+  height:auto;
+  max-width:100%;
+  max-height:100%;
+  margin: 5px;
+}
+
+#scrolling {
+  text-align: justify;
+}
+
+a {
+  color: #214E34;
+  font-family: 'Didact Gothic', sans-serif;
+  font-size: 16px;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 2px;
+  
+}
+
+div {
+  display: inline-block;
+  position: relative;
+  float: center;
+}
